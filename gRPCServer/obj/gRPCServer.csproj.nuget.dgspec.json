@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Job_Application_Code\\KLA\\Final_Code\\gRPCServer\\gRPCServer.csproj": {}
+    "F:\\Job_Application_Code\\KLA\\test\\KH_K_Q\\gRPCServer\\gRPCServer.csproj": {}
   },
   "projects": {
-    "F:\\Job_Application_Code\\KLA\\Final_Code\\gRPCServer\\gRPCServer.csproj": {
+    "F:\\Job_Application_Code\\KLA\\test\\KH_K_Q\\gRPCServer\\gRPCServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Job_Application_Code\\KLA\\Final_Code\\gRPCServer\\gRPCServer.csproj",
+        "projectUniqueName": "F:\\Job_Application_Code\\KLA\\test\\KH_K_Q\\gRPCServer\\gRPCServer.csproj",
         "projectName": "gRPCServer",
-        "projectPath": "F:\\Job_Application_Code\\KLA\\Final_Code\\gRPCServer\\gRPCServer.csproj",
+        "projectPath": "F:\\Job_Application_Code\\KLA\\test\\KH_K_Q\\gRPCServer\\gRPCServer.csproj",
         "packagesPath": "C:\\Users\\k7ada\\.nuget\\packages\\",
-        "outputPath": "F:\\Job_Application_Code\\KLA\\Final_Code\\gRPCServer\\obj\\",
+        "outputPath": "F:\\Job_Application_Code\\KLA\\test\\KH_K_Q\\gRPCServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\k7ada\\AppData\\Roaming\\NuGet\\NuGet.Config",

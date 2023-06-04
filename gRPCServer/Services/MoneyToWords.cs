@@ -31,6 +31,8 @@ namespace gRPCServer.Services
         {
             try
             {
+                // handle debt currency
+                if (text.Length > 1 && text[0].Equals('-')) { return ConvertMoneyToWords(text.Remove(0, 1)) + " debt"; };
                 return ConvertMoneyToWords(text);
             }
             catch (Exception error)

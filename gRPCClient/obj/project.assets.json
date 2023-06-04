@@ -464,11 +464,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Job_Application_Code\\KLA\\Final_Code\\gRPCClient\\gRPCClient.csproj",
+      "projectUniqueName": "F:\\Job_Application_Code\\KLA\\test\\KH_K_Q\\gRPCClient\\gRPCClient.csproj",
       "projectName": "gRPCClient",
-      "projectPath": "F:\\Job_Application_Code\\KLA\\Final_Code\\gRPCClient\\gRPCClient.csproj",
+      "projectPath": "F:\\Job_Application_Code\\KLA\\test\\KH_K_Q\\gRPCClient\\gRPCClient.csproj",
       "packagesPath": "C:\\Users\\k7ada\\.nuget\\packages\\",
-      "outputPath": "F:\\Job_Application_Code\\KLA\\Final_Code\\gRPCClient\\obj\\",
+      "outputPath": "F:\\Job_Application_Code\\KLA\\test\\KH_K_Q\\gRPCClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\k7ada\\AppData\\Roaming\\NuGet\\NuGet.Config",

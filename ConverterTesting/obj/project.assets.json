@@ -6804,11 +6804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Job_Application_Code\\KLA\\Final_Code\\ConverterTesting\\ConverterTesting.csproj",
+      "projectUniqueName": "F:\\Job_Application_Code\\KLA\\test\\KH_K_Q\\ConverterTesting\\ConverterTesting.csproj",
       "projectName": "ConverterTesting",
-      "projectPath": "F:\\Job_Application_Code\\KLA\\Final_Code\\ConverterTesting\\ConverterTesting.csproj",
+      "projectPath": "F:\\Job_Application_Code\\KLA\\test\\KH_K_Q\\ConverterTesting\\ConverterTesting.csproj",
       "packagesPath": "C:\\Users\\k7ada\\.nuget\\packages\\",
-      "outputPath": "F:\\Job_Application_Code\\KLA\\Final_Code\\ConverterTesting\\obj\\",
+      "outputPath": "F:\\Job_Application_Code\\KLA\\test\\KH_K_Q\\ConverterTesting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\k7ada\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6826,8 +6826,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\Job_Application_Code\\KLA\\Final_Code\\gRPCServer\\gRPCServer.csproj": {
-              "projectPath": "F:\\Job_Application_Code\\KLA\\Final_Code\\gRPCServer\\gRPCServer.csproj"
+            "F:\\Job_Application_Code\\KLA\\test\\KH_K_Q\\gRPCServer\\gRPCServer.csproj": {
+              "projectPath": "F:\\Job_Application_Code\\KLA\\test\\KH_K_Q\\gRPCServer\\gRPCServer.csproj"
             }
           }
         }
