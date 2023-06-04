@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)grpc.tools\2.46.3\build\Grpc.Tools.targets" Condition="Exists('$(NuGetPackageRoot)grpc.tools\2.46.3\build\Grpc.Tools.targets')" />
+    <Import Project="$(NuGetPackageRoot)grpc.net.client\0.1.22-pre2\build\netstandard2.1\Grpc.Net.Client.targets" Condition="Exists('$(NuGetPackageRoot)grpc.net.client\0.1.22-pre2\build\netstandard2.1\Grpc.Net.Client.targets')" />
+  </ImportGroup>
+</Project>

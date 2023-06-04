@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <CoreCompileDependsOn>$(CoreCompileDependsOn);Protobuf_Compile</CoreCompileDependsOn>
+  </PropertyGroup>
+	
+  <ItemGroup>
+  <None Remove="Protos\greet.proto" />
+  <None Remove="Resources\1.png" />
+</ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.23.2" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.53.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.54.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="WPF-UI" Version="2.0.3" />
+  </ItemGroup>
+
+<ItemGroup>
+  <Protobuf Include="Protos\greet.proto" GrpcServices="Client" />
+</ItemGroup>
+
+<ItemGroup>
+  <Resource Include="Resources\1.png" />
+</ItemGroup>
+
+<ItemGroup>
+  <Compile Update="Properties\Resources.Designer.cs">
+    <DesignTime>True</DesignTime>
+    <AutoGen>True</AutoGen>
+    <DependentUpon>Resources.resx</DependentUpon>
+  </Compile>
+</ItemGroup>
+
+<ItemGroup>
+  <EmbeddedResource Update="Properties\Resources.resx">
+    <Generator>ResXFileCodeGenerator</Generator>
+    <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+  </EmbeddedResource>
+</ItemGroup>
+
+</Project>

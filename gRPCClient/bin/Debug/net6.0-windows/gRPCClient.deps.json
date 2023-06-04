@@ -1,0 +1,168 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "gRPCClient/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.23.2",
+          "Grpc.Net.Client": "2.53.0",
+          "Grpc.Tools": "2.54.0",
+          "WPF-UI": "2.0.3"
+        },
+        "runtime": {
+          "gRPCClient.dll": {}
+        }
+      },
+      "Google.Protobuf/3.23.2": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.23.2.0",
+            "fileVersion": "3.23.2.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.53.0": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.53.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Client/2.53.0": {
+        "dependencies": {
+          "Grpc.Net.Common": "2.53.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/Grpc.Net.Client.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.53.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Common/2.53.0": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.53.0"
+        },
+        "runtime": {
+          "lib/net6.0/Grpc.Net.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.53.0.0"
+          }
+        }
+      },
+      "Grpc.Tools/2.54.0": {},
+      "Microsoft.Extensions.Logging.Abstractions/3.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "3.0.3.0",
+            "fileVersion": "3.0.320.7202"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/6.0.0": {},
+      "System.Drawing.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0"
+        }
+      },
+      "System.Memory/4.5.3": {},
+      "WPF-UI/2.0.3": {
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Wpf.Ui.dll": {
+            "assemblyVersion": "2.0.3.0",
+            "fileVersion": "2.0.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "gRPCClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.23.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SEDPBoiRjdBx4X9iQC7p4bT7HyivQ9nOCgCqQKoznZyrf/Kk2LKQe22okUzOwk8Tp+i5HPULm8ifVoqoYxbATA==",
+      "path": "google.protobuf/3.23.2",
+      "hashPath": "google.protobuf.3.23.2.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.53.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aIFksGygmlmijcLjcPcKR3FVSCpm5OZH8r81MjSlU+rNLW1i9zVszAivxUpiun/5nHq0Ycg1RrUCzA5xLfVuIw==",
+      "path": "grpc.core.api/2.53.0",
+      "hashPath": "grpc.core.api.2.53.0.nupkg.sha512"
+    },
+    "Grpc.Net.Client/2.53.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tH23ds+jJvx9dpvacQ5/EYIv7M7LJHPvIlOmlq4u0SflMRv07UXcg16KVUKKBUwNLR/uoLk8RtBiC7NKEHXbpg==",
+      "path": "grpc.net.client/2.53.0",
+      "hashPath": "grpc.net.client.2.53.0.nupkg.sha512"
+    },
+    "Grpc.Net.Common/2.53.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AcjscRF+QNpCZB2ITbl1b2zsCWM281+qPNTwLur+bA2FuhEvywfUZgJaKsP1NanOvkBetO1ai16LWcqnnUKZEA==",
+      "path": "grpc.net.common/2.53.0",
+      "hashPath": "grpc.net.common.2.53.0.nupkg.sha512"
+    },
+    "Grpc.Tools/2.54.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E+c9vTTSM1AHX5085MeF4J6QS0qACiz0Svm2zk+/F6gjuSo178gMLn7n6jMOSdF6OEHde5Cm86ouD8X49SrVbA==",
+      "path": "grpc.tools/2.54.0",
+      "hashPath": "grpc.tools.2.54.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m2Jyi/MEn043WMI1I6J1ALuCThktZ93rd7eqzYeLmMcA0bdZC+TBVl0LuEbEWM01dWeeBjOoagjNwQTzOi2r6A==",
+      "path": "microsoft.extensions.logging.abstractions/3.0.3",
+      "hashPath": "microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
+      "path": "microsoft.win32.systemevents/6.0.0",
+      "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
+      "path": "system.drawing.common/6.0.0",
+      "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "WPF-UI/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1e9Q8pQGfi9YFp3WavKZjXyLYohIjXxk5q0NqEaamofVgIdxRxwqrkWha584FBUISRBBT/qFOrl97YBl5bs30Q==",
+      "path": "wpf-ui/2.0.3",
+      "hashPath": "wpf-ui.2.0.3.nupkg.sha512"
+    }
+  }
+}
