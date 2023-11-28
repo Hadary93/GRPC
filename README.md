@@ -1,5 +1,5 @@
-# KH_K_Q
-A repo for KLA Task
+# GRPC
+GRPC client-server sample
 
 # To Run
 <br />1-run the server first
